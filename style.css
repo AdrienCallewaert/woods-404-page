@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.wood {
+	width: 90vw;
+	height: auto;
+	margin: auto;
+	background-image: url(sources/PS4Wallpapers.com_8bit-woods.png);
+	border-radius: 20px;
+	padding: 1vw;
+}
+  
+
+
+h3 {
+	color: #8cb348;
+	padding-top: 50px;
+	font-size: 60px;
+	background-color: #613e2a;
+	padding: 10px;
+	border-radius: 20px;
+	text-shadow: 2px 2px 2px #4d7e13;
+}
+
+
+.top h1, .top h3, .top h6 {
+	margin: 0;
+	text-align: center;
+}
+  
+.top {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+ 
+button {
+	margin-top: 10vh;
+	margin-bottom: 30px;
+    transition: all .5s ease-in;
+    color: white;
+    border: 1px solid white;
+    text-align: center;
+    font-size: 35px;
+	background-color : transparent;
+    padding: 15px;
+	border-radius: 20px;
+}
+
+button:hover {
+	cursor: pointer;
+	backdrop-filter: blur(10px);
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
